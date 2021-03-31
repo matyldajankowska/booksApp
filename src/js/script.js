@@ -151,10 +151,5 @@
     }
   }
 
-  const app = {
-    initProject: function(){
-      new BooksList();
-    }
-  };
-  app.initProject();
+  const app = new BooksList();
 }
